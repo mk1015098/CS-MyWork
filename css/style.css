@@ -4,45 +4,133 @@ html {
   font-size: 100%;
 }
 body {
-
+  color: #24292e;
 }
 img {
   max-width: 100%;
+}
+a {
+  color: #2b2b2b;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto 130px auto;
+  padding: 0 4%;
+  font-size: 0.9rem;
+}
+
+.sec-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 65px;
 }
 
 /*-------------------------------------------
 Header
 -------------------------------------------*/
+#header {
+  max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 4%;
+}
+#header ul {
+  display: flex;
 
-
+}
+#header li {
+  margin-left: 30px;
+}
+#header li img.icon {
+  width: 20px;
+}
 
 /*-------------------------------------------
 Mainvisual
 -------------------------------------------*/
-
-
-
-
-/*-------------------------------------------
-Index
--------------------------------------------*/
-
-
-
-
-/*-------------------------------------------
-Image
--------------------------------------------*/
-
-
-
+#mainvisual {
+  margin-bottom: 80px;
+}
+#mainvisual img {
+  width: 100%;
+  max-width: 1920px;
+  height: 420px;
+  object-fit: cover;
+}
 
 /*-------------------------------------------
-Detail
+About
 -------------------------------------------*/
+#about ul {
+  margin-bottom: 30px;
+}
+#about li:first-child {
+  margin-bottom: 30px;
+}
 
+/*-------------------------------------------
+Works
+-------------------------------------------*/
+#works ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#works li {
+  width: 30%;
+  margin-bottom: 30px;
+}
 
+/*-------------------------------------------
+News
+-------------------------------------------*/
+#news dl {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid #c8c8c8;
+  margin-bottom: 20px;
+}
+#news dt {
+  width: 20%;
+  border-bottom: 1px solid #c8c8c8;
+  padding: 15px;
+}
+#news dd {
+  width: 80%;
+  border-bottom: 1px solid #c8c8c8;
+  padding: 15px;
+}
 
+/*-------------------------------------------
+Contact
+-------------------------------------------*/
+#contact dl {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+#contact dt {
+  width: 20%;
+}
+#contact dd {
+  width: 80%;
+}
+#contact dd input {
+  border: 1px solid #c8c8c8;
+  width: 100%;
+  padding: 10px;
+}
+#contact dd textarea {
+  border: 1px solid #c8c8c8;
+  width: 100%;
+  padding: 10px;
+}
 
 /*-------------------------------------------
 Footer
